@@ -51,7 +51,7 @@ const WHY_CHOOSE_US = [
   },
   {
     icon: Award,
-    title: "18 Years of Experience",
+    title: "7 Years of Experience",
     description:
       "Nearly two decades sourcing and moving goods across borders for businesses of every size.",
   },
@@ -102,10 +102,10 @@ export default function Home() {
             </div>
             <div className="grid grid-cols-2 gap-5">
               {[
-                { label: "Years of Experience", value: "18+" },
-                { label: "Product Categories", value: "8" },
-                { label: "Countries Served", value: "35+" },
-                { label: "Containers / Year", value: "2,400+" },
+                { label: "Years of Experience", value: "7+" },
+                { label: "Product ", value: "4" },
+                { label: "Countries Served", value: "8+" },
+                { label: "Containers / Year", value: "100+" },
               ].map((item) => (
                 <div
                   key={item.label}
@@ -193,7 +193,7 @@ export default function Home() {
       </section>
 
       {/* Services preview */}
-      <section className="py-20 sm:py-24">
+      {/* <section className="py-20 sm:py-24">
         <Container className="flex flex-col gap-12">
           <SectionHeading
             eyebrow="Our Services"
@@ -215,7 +215,7 @@ export default function Home() {
             </Link>
           </div>
         </Container>
-      </section>
+      </section> */}
 
       {/* Import/Export process */}
       <section className="bg-slate-50 py-20 sm:py-24">
@@ -228,6 +228,8 @@ export default function Home() {
           <ProcessSteps />
         </Container>
       </section>
+
+      <StatisticsSection />
 
       {/* Global Presence */}
       <section className="py-20 sm:py-24">
@@ -254,10 +256,10 @@ export default function Home() {
         </Container>
       </section>
 
-      <StatisticsSection />
+      
 
       {/* Testimonials */}
-      <section className="bg-slate-50 py-20 sm:py-24">
+      {/* <section className="bg-slate-50 py-20 sm:py-24">
         <Container className="flex flex-col gap-12">
           <SectionHeading
             eyebrow="Client Feedback"
@@ -270,7 +272,7 @@ export default function Home() {
             ))}
           </div>
         </Container>
-      </section>
+      </section> */}
 
       <CTASection />
     </>

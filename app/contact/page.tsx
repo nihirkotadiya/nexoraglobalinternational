@@ -20,7 +20,7 @@ const CONTACT_DETAILS = [
   {
     icon: Phone,
     label: "Phone",
-    value: "+91 79 4000 1234",
+    value: "+91 92 6577 6703",
   },
   {
     icon: Mail,
@@ -95,7 +95,7 @@ export default function ContactPage() {
                 <div className="flex flex-col items-center gap-2 text-center">
                   <MapPin className="size-8 text-accent-400" />
                   <span className="text-sm text-slate-300">
-                    Bhesan, Gujarat, India
+                    Ahmedabad, Gujarat, India
                   </span>
                 </div>
               </div>

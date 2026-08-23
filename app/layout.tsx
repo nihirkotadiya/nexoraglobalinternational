@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     template: "%s | Nexora Global",
   },
   description:
-    "Nexora Global sources, imports, and exports high-quality agricultural, industrial, textile, and consumer products across 35+ countries with reliable logistics and quality assurance.",
+    "Nexora Global sources, imports, and exports high-quality agricultural, industrial, textile, and consumer products across 8+ countries with reliable logistics and quality assurance.",
   keywords: [
     "import export company",
     "global trading company",
