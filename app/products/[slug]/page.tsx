@@ -74,6 +74,8 @@ export default async function ProductDetailPage({
           <ProductVisual
             icon={product.icon}
             category={product.category}
+            imageSrc={product.image}
+            imageAlt={product.name}
             size="lg"
             className="aspect-square w-full rounded-3xl"
           />
@@ -92,7 +94,7 @@ export default async function ProductDetailPage({
             </div>
 
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-              <div className="flex items-start gap-3 rounded-xl border border-slate-200 bg-white p-4">
+              {/* <div className="flex items-start gap-3 rounded-xl border border-slate-200 bg-white p-4">
                 <Package className="mt-0.5 size-5 shrink-0 text-accent-600" />
                 <div className="flex flex-col">
                   <span className="text-xs font-medium uppercase tracking-wide text-slate-500">
@@ -102,8 +104,8 @@ export default async function ProductDetailPage({
                     {product.packaging}
                   </span>
                 </div>
-              </div>
-              <div className="flex items-start gap-3 rounded-xl border border-slate-200 bg-white p-4">
+              </div> */}
+              {/* <div className="flex items-start gap-3 rounded-xl border border-slate-200 bg-white p-4">
                 <Boxes className="mt-0.5 size-5 shrink-0 text-accent-600" />
                 <div className="flex flex-col">
                   <span className="text-xs font-medium uppercase tracking-wide text-slate-500">
@@ -113,7 +115,7 @@ export default async function ProductDetailPage({
                     {product.minimumOrder}
                   </span>
                 </div>
-              </div>
+              </div> */}
               <div className="flex items-start gap-3 rounded-xl border border-slate-200 bg-white p-4 sm:col-span-2">
                 <Globe2 className="mt-0.5 size-5 shrink-0 text-accent-600" />
                 <div className="flex flex-col gap-1.5">

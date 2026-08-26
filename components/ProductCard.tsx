@@ -12,6 +12,8 @@ export default function ProductCard({ product }: { product: Product }) {
       <ProductVisual
         icon={product.icon}
         category={product.category}
+        imageSrc={product.image}
+        imageAlt={product.name}
         className="aspect-[4/3] w-full"
       />
       <div className="flex flex-1 flex-col gap-3 p-6">

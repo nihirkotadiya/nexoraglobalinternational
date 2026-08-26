@@ -59,7 +59,7 @@ const TRUST_POINTS = [
     icon: TrendingUp,
     title: "Consistent Track Record",
     description:
-      "18 years of on-time deliveries and repeat business across 35+ countries.",
+      "7 years of on-time deliveries and repeat business across 35+ countries.",
   },
   {
     icon: ShieldCheck,

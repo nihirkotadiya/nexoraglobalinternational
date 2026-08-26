@@ -19,6 +19,7 @@ export interface Product {
   slug: string;
   name: string;
   category: ProductCategorySlug;
+  image?: string;
   shortDescription: string;
   description: string;
   specifications: { label: string; value: string }[];

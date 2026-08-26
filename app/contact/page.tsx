@@ -25,7 +25,7 @@ const CONTACT_DETAILS = [
   {
     icon: Mail,
     label: "Email",
-    value: "info@nexoraglobal.com",
+    value: "nexoraglobal007@gmail.com",
   },
   {
     icon: Clock,
@@ -95,7 +95,7 @@ export default function ContactPage() {
                 <div className="flex flex-col items-center gap-2 text-center">
                   <MapPin className="size-8 text-accent-400" />
                   <span className="text-sm text-slate-300">
-                    Ahmedabad, Gujarat, India
+                    Bhesan, Junagadh, Gujarat, India
                   </span>
                 </div>
               </div>

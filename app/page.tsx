@@ -79,7 +79,7 @@ export default function Home() {
                 align="left"
               />
               <p className="text-base leading-relaxed text-slate-600">
-                For over 18 years, Nexora Global has helped businesses
+                For over 7 years, Nexora Global has helped businesses
                 source, import, and export high-quality products across
                 agriculture, textiles, industrial goods, and consumer
                 categories. We combine deep supplier networks with rigorous

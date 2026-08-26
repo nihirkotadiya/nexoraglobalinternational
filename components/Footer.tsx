@@ -94,7 +94,7 @@ export default function Footer() {
             </li>
             <li className="flex items-center gap-3">
               <Mail className="size-4 shrink-0 text-accent-400" />
-              <span>info@nexoraglobal.com</span>
+              <span>nexoraglobal007@gmail.com</span>
             </li>
             <li className="flex items-start gap-3">
               <Clock className="mt-0.5 size-4 shrink-0 text-accent-400" />

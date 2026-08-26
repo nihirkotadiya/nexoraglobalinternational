@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { renderIcon } from "@/lib/icon-map";
 
 const GRADIENTS: Record<string, string> = {
@@ -14,20 +15,38 @@ const GRADIENTS: Record<string, string> = {
 export default function ProductVisual({
   icon,
   category,
+  imageSrc,
+  imageAlt,
   size = "md",
   className = "",
 }: {
   icon: string;
   category?: string;
+  imageSrc?: string;
+  imageAlt?: string;
   size?: "sm" | "md" | "lg";
   className?: string;
 }) {
   const gradient = GRADIENTS[category ?? ""] ?? "from-navy-700 via-accent-500 to-navy-900";
   const iconSize = size === "lg" ? "size-20 sm:size-24" : size === "sm" ? "size-9" : "size-14";
 
+  if (imageSrc) {
+    return (
+      <div className={`relative overflow-hidden bg-slate-100 ${className}`}>
+        <Image
+          src={imageSrc}
+          alt={imageAlt ?? "Product image"}
+          fill
+          className="object-cover"
+          sizes="(min-width: 1280px) 24rem, (min-width: 1024px) 20rem, (min-width: 640px) 45vw, 95vw"
+        />
+      </div>
+    );
+  }
+
   return (
     <div
-      className={`relative flex items-center justify-center overflow-hidden bg-gradient-to-br ${gradient} ${className}`}
+      className={`relative flex items-center justify-center overflow-hidden bg-linear-to-br ${gradient} ${className}`}
     >
       <div className="absolute inset-0 bg-grid-pattern opacity-40" />
       <div className="absolute -right-8 -top-8 size-32 rounded-full bg-white/10 blur-2xl" />
