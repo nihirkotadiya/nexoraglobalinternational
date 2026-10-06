@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import {
   ArrowRight,
@@ -18,6 +19,7 @@ import TestimonialCard from "@/components/TestimonialCard";
 import CTASection from "@/components/CTASection";
 import StatisticsSection from "@/components/StatisticsSection";
 import ProcessSteps from "@/components/ProcessSteps";
+import WhatWeDo from "@/components/WhatWeDo";
 import { categories } from "@/data/categories";
 import { products } from "@/data/products";
 import { services } from "@/data/services";
@@ -226,6 +228,21 @@ export default function Home() {
             description="A structured, transparent process that keeps your shipments moving with confidence from inquiry to delivery."
           />
           <ProcessSteps />
+        </Container>
+      </section>
+
+      <WhatWeDo />
+
+      <section className="bg-white py-8 sm:py-12" aria-label="Import and export shipping journey">
+        <Container>
+          <Image
+            src="/export.jpg"
+            alt="Import and export journey from production and quality inspection through shipping, customs, and delivery to the buyer"
+            width={1920}
+            height={700}
+            sizes="100vw"
+            className="h-auto w-full"
+          />
         </Container>
       </section>
 

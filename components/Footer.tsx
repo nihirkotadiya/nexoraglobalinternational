@@ -86,7 +86,7 @@ export default function Footer() {
           <ul className="mt-4 flex flex-col gap-3 text-sm text-slate-400">
             <li className="flex items-start gap-3">
               <MapPin className="mt-0.5 size-4 shrink-0 text-accent-400" />
-              <span>402 Meridian Trade Tower, Ahmedabad, Gujarat, India</span>
+              <span>Bhesan, Junagadh, Gujarat, India</span>
             </li>
             <li className="flex items-center gap-3">
               <Phone className="size-4 shrink-0 text-accent-400" />

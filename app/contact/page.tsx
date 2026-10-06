@@ -15,7 +15,7 @@ const CONTACT_DETAILS = [
   {
     icon: MapPin,
     label: "Office Location",
-    value: "402 Meridian Trade Tower, Ahmedabad, Gujarat, India",
+    value: "Bhesan, Junagadh, Gujarat, India",
   },
   {
     icon: Phone,
